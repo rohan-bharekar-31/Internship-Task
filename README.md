@@ -1,26 +1,36 @@
-<h1 align="center">React Admin Dashboard</h1>
+# React Admin Dashboard
 
-![Demo App](/public/screenshot-for-readme-1.png)
-![Demo App](/public/screenshot-for-readme-2.png)
-![Demo App](/public/screenshot-for-readme-3.png)
+This project is part of an internship selection task, designed to demonstrate my expertise in front-end development using React. The application implements user management functionality with an interactive map feature to showcase users' locations, using dummy data for demonstration purposes.
 
-[Video Tutorial on Youtube](https://youtu.be/gK0v_d91epk)
+---
 
-### This is a free admin dashboard ui kit built with:
+## Features
 
--   React
--   Tailwind CSS
--   Recharts
--   Framer Motion
+### User Management
+- **Add New User**: A form-based interface to add new users to the list.
+- **Search Users**: Real-time filtering to find users by name or email.
+- **User List**: A table displaying user details like name, email, and role.
+- **View More**: An option to view the user's location on a map.
 
-It is completely responsive and can be used for any type of web application.
+### Interactive Map
+- Integrated with **Leaflet** for location display.
+- Displays markers for the user's geographical location when "Read More" is clicked.
 
-### Run this app locally
+### Additional Features
+- **Delete User**: Easily remove users from the list.
+- **Responsive UI**: Built using Tailwind CSS for a modern and seamless experience.
+- **Smooth Animations**: Added via Framer Motion for better interactivity.
 
-```shell
-npm install
-```
+---
 
-```shell
-npm run start
-```
+## Technologies Used
+
+- **React**: Core framework for building the interface.
+- **Framer Motion**: Animation library for enhancing user experience.
+- **Leaflet**: JavaScript library for interactive maps.
+- **Lucide Icons**: Lightweight and customizable icons.
+- **Tailwind CSS**: Utility-first CSS framework for responsive design.
+
+---
+
+
